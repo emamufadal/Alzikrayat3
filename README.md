@@ -115,10 +115,10 @@ validation rules (required fields, unique email, email format).
 - Home page with banner and recent photos
 - Gallery fetched with `useEffect` + `fetch`, grid / list toggle, responsive layout
 - Upload with Multer (files saved in `server/uploads`, metadata in MongoDB)
+- Photo detail page (`/photos/:id` with `useParams`) with comments
 
 
 Emadh Mufadal 
 Software Engineering
-- Photo detail page (`/photos/:id` with `useParams`) with comments
 - Comments appear immediately without reloading the page
 - Owner-only delete (also removes the image file and the photo's comments)
